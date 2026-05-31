@@ -840,4 +840,121 @@ zone "200.168.192.in-addr.arpa" {
 
 ---
 
-This perfectly extracts the core networking logic from Lesson 7. If you add these reverse lookup records to the cheat sheet we built last time, your exam prep will be incredibly robust. Let me know if you want to run through any of these commands in a simulated way to practice!
+Here are the high-probability practice questions extracted directly from `ネットワーク応用07-2_cachedns.pdf` (Caching DNS Server). This slide deck focuses on configuring `ubuntu_server` to act as a middleman (cache) for DNS queries.
+
+Since we are wrapping up the midterm material, these questions strictly target the new caching concepts and DHCP modifications not covered in previous sections!
+
+---
+
+### **Section 1: What commands to execute? (◯◯するにはどのようなコマンドを実行？)**
+
+**Question 1: Restarting DHCP to Apply DNS Changes**
+
+* **Japanese:** クライアントに配布するDNSサーバのIPアドレスを変更した後、その新しい設定をシステムに反映させるためにDHCPサービスを再起動するコマンドを答えなさい。
+* **English:** What command do you execute to restart the DHCP service to apply the new settings after changing the DNS server IP address distributed to clients?
+* **Answer:** `sudo systemctl restart isc-dhcp-server`
+
+* **Explanation (Japanese/English):** `dhcpd.conf` を書き換えただけではクライアントに新しいIPは配られません。このコマンドを実行して初めてキャッシュDNSサーバの情報が有効になります。 / Just rewriting `dhcpd.conf` does not distribute the new IP to clients. The caching DNS server information only becomes effective after executing this command.
+
+
+* **Reference:** `<<< ネットワーク応用07-2_cachedns.pdf, Page 10 >>>`
+
+**Question 2: Verifying Caching DNS Operation**
+
+* **Japanese:** クライアントマシンのターミナルから `www.oreore.test` の名前解決を行い、キャッシュDNSサーバからの「非権威の回答」が得られるか確認するためのコマンドを答えなさい。
+* **English:** What command do you execute from the client machine's terminal to resolve the name `www.oreore.test` and confirm if a "Non-authoritative answer" is obtained from the caching DNS server?
+* **Answer:** `nslookup www.oreore.test`
+
+* **Explanation (Japanese/English):** クライアントが正しくキャッシュDNSサーバ（192.168.100.1）に問い合わせを行えているかをテストするための必須コマンドです。 / This is the essential command to test whether the client is correctly querying the caching DNS server (192.168.100.1).
+
+
+* **Reference:** `<<< ネットワーク応用07-2_cachedns.pdf, Page 13 >>>`
+
+---
+
+### **Section 2: What do the items in the config files mean? (設定ファイルに書いてある項目の意味は？)**
+
+**Question 3: Enabling Recursive Queries**
+
+* **Japanese:** `named.conf.options` における `recursion yes;` という項目はどのような意味を持つか答えなさい。
+* **English:** What does the item `recursion yes;` mean in `named.conf.options`?
+* **Answer:** 問い合わせの答えがわからないときに別のDNSサーバへ再度問い合わせするかどうか（再帰問い合わせ）を許可する設定。 / A setting that allows the server to query another DNS server again (recursive query) when it does not know the answer to a query.
+
+
+* **Explanation (Japanese/English):** キャッシュDNSサーバは自分自身で答えを持っていないため、この設定を `yes` にして外部の権威サーバに答えを探しに行かせる必要があります。 / Because a caching DNS server does not have the answers itself, this setting must be `yes` to let it go look for the answer from an external authoritative server.
+
+
+* **Reference:** `<<< ネットワーク応用07-2_cachedns.pdf, Page 7 >>>`
+
+**Question 4: Understanding "Non-authoritative answer"**
+
+* **Japanese:** クライアントで `nslookup` を実行した際、結果に表示される `Non-authoritative answer:`（非権威の回答）は、ネットワークにおいてどのような事実を示しているか答えなさい。
+* **English:** When running `nslookup` on a client, what fact in the network does `Non-authoritative answer:` displayed in the results indicate?
+* **Answer:** わたしは権威サーバじゃないけどね！という意味であり、そのドメインの情報を直接管理している権威サーバではなく、キャッシュDNSサーバが代理で回答したことを示している。 / It means "I am not an authoritative server!", indicating that a caching DNS server answered on behalf of the authoritative server that directly manages the domain's information.
+
+
+* **Reference:** `<<< ネットワーク応用07-2_cachedns.pdf, Page 13 >>>`
+
+**Question 5: Caching DNS Architectural Difference**
+
+* **Japanese:** キャッシュDNSサーバを構築する際、権威DNSサーバの構築とは異なり「作成が不要」となるファイルは何か答えなさい。
+* **English:** When building a caching DNS server, what file is "not required to be created" unlike when building an authoritative DNS server?
+* **Answer:** ゾーンファイル（`db.oreore` など） / Zone files (like `db.oreore`).
+
+
+* **Explanation (Japanese/English):** キャッシュDNSサーバは自分でドメイン情報を管理するわけではないため、ゾーンファイルの作成や `named.conf.local` への記述は不要です。 / Because a caching DNS server does not manage domain information itself, creating zone files or writing to `named.conf.local` is unnecessary.
+
+
+* **Reference:** `<<< ネットワーク応用07-2_cachedns.pdf, Page 6 >>>`
+
+---
+
+### **Section 3: What should be written in the config files? (設定ファイルに何を書く？)**
+
+**Question 6: Changing the DHCP DNS Distribution**
+
+* **Japanese:** DHCPサーバ（`ubuntu_server`）の設定において、クライアントに配布するDNSサーバを、権威サーバからキャッシュDNSサーバ（`192.168.100.1`）に変更したい。`/etc/dhcp/dhcpd.conf` のオプション行をどのように書き換えるべきか書きなさい。
+* **English:** In the DHCP server (`ubuntu_server`) settings, you want to change the DNS server distributed to clients from the authoritative server to the caching DNS server (`192.168.100.1`). Write how the option line in `/etc/dhcp/dhcpd.conf` should be rewritten.
+* **Answer:**
+
+```text
+option domain-name-servers 192.168.100.1;
+
+```
+
+* **Explanation (Japanese/English):** クライアントに「これからは自分自身（192.168.100.1）をDNSとして使いなさい」と教えるための非常に重要な変更です。 / This is a crucial change to tell the clients, "From now on, use me (192.168.100.1) as your DNS."
+
+
+* **Reference:** `<<< ネットワーク応用07-2_cachedns.pdf, Page 10 >>>`
+
+**Question 7: Setting the Forwarder Destination**
+
+* **Japanese:** キャッシュDNSサーバが、自分ではわからない問い合わせを受けた際、それを権威DNSサーバ（IP: `192.168.200.1`）へ転送して調べてもらうようにしたい。`named.conf.options` に追記すべき内容を書きなさい。
+* **English:** When the caching DNS server receives a query it doesn't know, you want it to forward the query to the authoritative DNS server (IP: `192.168.200.1`) to look it up. Write the content that should be added to `named.conf.options`.
+* **Answer:**
+
+```text
+forwarders {192.168.200.1;};
+
+```
+
+* **Explanation (Japanese/English):** 再帰問い合わせ（Recursion）を行う際の「問い合わせ先」を指定する設定です。 / This setting specifies the "destination to query" when performing recursive queries.
+
+
+* **Reference:** `<<< ネットワーク応用07-2_cachedns.pdf, Page 7 & 8 >>>`
+
+**Question 8: Restricting Recursive Queries**
+
+* **Japanese:** `named.conf.options` において、内部ネットワーク（`netc1`）と自分自身（`localhost`）からのみ、再帰問い合わせ（代理での問い合わせ）を許可する設定を書きなさい。
+* **English:** In `named.conf.options`, write the setting that allows recursive queries (querying on behalf of others) only from the internal network (`netc1`) and itself (`localhost`).
+* **Answer:**
+
+```text
+allow-recursion {netc1; localhost;};
+
+```
+
+* **Explanation (Japanese/English):** 外部の無関係なネットワークからの再帰問い合わせを許可すると、DNSアンプ攻撃などのサイバー攻撃に悪用される危険があるため、許可する範囲を絞ることが重要です。 / Allowing recursive queries from unrelated external networks poses a risk of being abused for cyberattacks like DNS amplification, so it is important to restrict the allowed scope.
+
+
+* **Reference:** `<<< ネットワーク応用07-2_cachedns.pdf, Page 7 & 8 >>>`
