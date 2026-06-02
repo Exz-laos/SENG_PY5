@@ -7,7 +7,7 @@ from PIL import Image
 # --- Functions ---
 
 @st.cache_data
-def load_image_pairs(data_folder="control_middle1/Data"):
+def load_image_pairs(data_folder="DigitalSignal_middle1/Data"):
     """
     Loads and pairs front (problem) and back (solution) images from a directory 
     by matching the extracted numerical ID (e.g., f1.png matches b1.png).
