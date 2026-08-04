@@ -8,373 +8,377 @@ all_questions = [
     # ---------------------------------------------------------
     
     # Chapter 4: TAKENAKA (1-10)
+    # ---------------------------------------------------------
+    # PART 1: VOCABULARY (Chapters 4 - 7) - 45 Questions
+    # ---------------------------------------------------------
+    
+    # Chapter 4: TAKENAKA (1-10)
     {
         "id": 1,
         "category": "Vocabulary - Chapter 4",
-        "question": "What is the Thai meaning of the word: **be composed of**?",
-        "options": ["ประกอบด้วย", "มีส่วนร่วมใน", "อุทิศตนให้กับ", "มาจาก"],
-        "correct_answer": "ประกอบด้วย",
-        "explanation": "**Chapter 4 Vocabulary**\nbe composed of = ประกอบด้วย (consist of)"
+        "question": "What is the Japanese meaning of the word: **be composed of**?",
+        "options": ["〜から成る", "〜に携わる", "〜に力を注ぐ", "〜に由来する"],
+        "correct_answer": "〜から成る",
+        "explanation": "**Chapter 4 Vocabulary**\nbe composed of = 〜から成る"
     },
     {
         "id": 2,
         "category": "Vocabulary - Chapter 4",
-        "question": "What is the Thai meaning of the word: **be involved in**?",
-        "options": ["รับมือกับ", "มีส่วนร่วมใน", "เชี่ยวชาญเป็นพิเศษใน", "ก่อตั้ง"],
-        "correct_answer": "มีส่วนร่วมใน",
-        "explanation": "**Chapter 4 Vocabulary**\nbe involved in = มีส่วนร่วมใน"
+        "question": "What is the Japanese meaning of the word: **be involved in**?",
+        "options": ["〜にうまく対処する", "〜に携わる", "〜を専門にする", "〜を設立する"],
+        "correct_answer": "〜に携わる",
+        "explanation": "**Chapter 4 Vocabulary**\nbe involved in = 〜に携わる"
     },
     {
         "id": 3,
         "category": "Vocabulary - Chapter 4",
-        "question": "What is the Thai meaning of the word: **branch office**?",
-        "options": ["สาขา", "ห้องปฏิบัติการ", "เงินทุน", "การก่อสร้าง"],
-        "correct_answer": "สาขา",
-        "explanation": "**Chapter 4 Vocabulary**\nbranch office = สาขา / สำนักงานสาขา"
+        "question": "What is the Japanese meaning of the word: **branch office**?",
+        "options": ["支店", "研究所", "資本金", "建設"],
+        "correct_answer": "支店",
+        "explanation": "**Chapter 4 Vocabulary**\nbranch office = 支店"
     },
     {
         "id": 4,
         "category": "Vocabulary - Chapter 4",
-        "question": "What is the Thai meaning of the word: **capital**?",
-        "options": ["สินค้า", "เงินทุน", "หลัก", "เนื้อหา"],
-        "correct_answer": "เงินทุน",
-        "explanation": "**Chapter 4 Vocabulary**\ncapital = เงินทุน / ทุนจดทะเบียน"
+        "question": "What is the Japanese meaning of the word: **capital**?",
+        "options": ["商品", "資本金", "主要な", "中身"],
+        "correct_answer": "資本金",
+        "explanation": "**Chapter 4 Vocabulary**\ncapital = 資本金"
     },
     {
         "id": 5,
         "category": "Vocabulary - Chapter 4",
-        "question": "What is the Thai meaning of the word: **construction**?",
-        "options": ["สิ่งก่อสร้าง", "การติดตั้ง", "การก่อสร้าง", "การเริ่มต้น"],
-        "correct_answer": "การก่อสร้าง",
-        "explanation": "**Chapter 4 Vocabulary**\nconstruction = การก่อสร้าง"
+        "question": "What is the Japanese meaning of the word: **construction**?",
+        "options": ["建造物", "設置", "建設", "開始"],
+        "correct_answer": "建設",
+        "explanation": "**Chapter 4 Vocabulary**\nconstruction = 建設"
     },
     {
         "id": 6,
         "category": "Vocabulary - Chapter 4",
-        "question": "What is the Thai meaning of the word: **establish**?",
-        "options": ["พูดเกินจริง", "เพาะปลูก", "ระบุ", "ก่อตั้ง"],
-        "correct_answer": "ก่อตั้ง",
-        "explanation": "**Chapter 4 Vocabulary**\nestablish = ก่อตั้ง"
+        "question": "What is the Japanese meaning of the word: **establish**?",
+        "options": ["〜を誇張する", "〜を培う", "〜を認定する", "〜を設立する"],
+        "correct_answer": "〜を設立する",
+        "explanation": "**Chapter 4 Vocabulary**\nestablish = 〜を設立する"
     },
     {
         "id": 7,
         "category": "Vocabulary - Chapter 4",
-        "question": "What is the Thai meaning of the word: **exaggerate**?",
-        "options": ["พูดเกินจริง", "จัดส่ง", "ดำเนินตาม", "ครอบคลุม"],
-        "correct_answer": "พูดเกินจริง",
-        "explanation": "**Chapter 4 Vocabulary**\nexaggerate = พูดเกินจริง"
+        "question": "What is the Japanese meaning of the word: **exaggerate**?",
+        "options": ["〜を誇張する", "〜を出荷する", "〜を続ける", "〜に及ぶ"],
+        "correct_answer": "〜を誇張する",
+        "explanation": "**Chapter 4 Vocabulary**\nexaggerate = 〜を誇張する"
     },
     {
         "id": 8,
         "category": "Vocabulary - Chapter 4",
-        "question": "What is the Thai meaning of the word: **laboratory**?",
-        "options": ["ห้องปฏิบัติการ", "สาขา", "ผู้ผลิต", "ต้นแบบ"],
-        "correct_answer": "ห้องปฏิบัติการ",
-        "explanation": "**Chapter 4 Vocabulary**\nlaboratory = ห้องปฏิบัติการ / ห้องทดลอง"
+        "question": "What is the Japanese meaning of the word: **laboratory**?",
+        "options": ["研究所", "支店", "メーカー", "試作品"],
+        "correct_answer": "研究所",
+        "explanation": "**Chapter 4 Vocabulary**\nlaboratory = 研究所"
     },
     {
         "id": 9,
         "category": "Vocabulary - Chapter 4",
-        "question": "What is the Thai meaning of the word: **span**?",
-        "options": ["มีจำนวนทั้งหมด", "ครอบคลุม", "มาจาก", "เอาเปรียบ"],
-        "correct_answer": "ครอบคลุม",
-        "explanation": "**Chapter 4 Vocabulary**\nspan = ครอบคลุม / ทอดยาว"
+        "question": "What is the Japanese meaning of the word: **span**?",
+        "options": ["総計〜になる", "〜に及ぶ", "〜に由来する", "〜につけ込む"],
+        "correct_answer": "〜に及ぶ",
+        "explanation": "**Chapter 4 Vocabulary**\nspan = 〜に及ぶ"
     },
     {
         "id": 10,
         "category": "Vocabulary - Chapter 4",
-        "question": "What is the Thai meaning of the word: **structure**?",
-        "options": ["ส่วนผสม", "สิ่งทดแทน", "สิ่งก่อสร้าง", "ความเป็นไปได้"],
-        "correct_answer": "สิ่งก่อสร้าง",
-        "explanation": "**Chapter 4 Vocabulary**\nstructure = สิ่งก่อสร้าง / โครงสร้าง"
+        "question": "What is the Japanese meaning of the word: **structure**?",
+        "options": ["成分", "代用品", "建造物", "可能性"],
+        "correct_answer": "建造物",
+        "explanation": "**Chapter 4 Vocabulary**\nstructure = 建造物"
     },
 
     # Chapter 5: SUNTORY BLUE ROSE (11-25)
     {
         "id": 11,
         "category": "Vocabulary - Chapter 5",
-        "question": "What is the Thai meaning of the word: **be devoted to**?",
-        "options": ["อุทิศตนให้กับ", "ประกอบด้วย", "เชี่ยวชาญเป็นพิเศษใน", "รับมือกับ"],
-        "correct_answer": "อุทิศตนให้กับ",
-        "explanation": "**Chapter 5 Vocabulary**\nbe devoted to = อุทิศตนให้กับ / ทุ่มเทให้กับ"
+        "question": "What is the Japanese meaning of the word: **be devoted to**?",
+        "options": ["〜に力を注ぐ", "〜から成る", "〜を専門にする", "〜にうまく対処する"],
+        "correct_answer": "〜に力を注ぐ",
+        "explanation": "**Chapter 5 Vocabulary**\nbe devoted to = 〜に力を注ぐ"
     },
     {
         "id": 12,
         "category": "Vocabulary - Chapter 5",
-        "question": "What is the Thai meaning of the word: **bloom**?",
-        "options": ["ความขาดแคลน", "บาน", "การเริ่มต้น", "การป้องกัน"],
-        "correct_answer": "บาน",
-        "explanation": "**Chapter 5 Vocabulary**\nbloom = บาน / ออกดอก"
+        "question": "What is the Japanese meaning of the word: **bloom**?",
+        "options": ["不足", "開花", "開始", "防止"],
+        "correct_answer": "開花",
+        "explanation": "**Chapter 5 Vocabulary**\nbloom = 開花"
     },
     {
         "id": 13,
         "category": "Vocabulary - Chapter 5",
-        "question": "What is the Thai meaning of the word: **breeding**?",
-        "options": ["การชี้นำ", "ความน่าเชื่อถือ", "การเพาะพันธุ์", "การติดตั้ง"],
-        "correct_answer": "การเพาะพันธุ์",
-        "explanation": "**Chapter 5 Vocabulary**\nbreeding = การเพาะพันธุ์ / การปรับปรุงพันธุ์"
+        "question": "What is the Japanese meaning of the word: **breeding**?",
+        "options": ["指揮", "信用性", "品種改良", "設置"],
+        "correct_answer": "品種改良",
+        "explanation": "**Chapter 5 Vocabulary**\nbreeding = 品種改良"
     },
     {
         "id": 14,
         "category": "Vocabulary - Chapter 5",
-        "question": "What is the Thai meaning of the word: **commencement**?",
-        "options": ["การเริ่มต้น", "การจัดส่งสินค้า", "การก่อสร้าง", "บาน"],
-        "correct_answer": "การเริ่มต้น",
-        "explanation": "**Chapter 5 Vocabulary**\ncommencement = การเริ่มต้น"
+        "question": "What is the Japanese meaning of the word: **commencement**?",
+        "options": ["開始", "発送", "建設", "開花"],
+        "correct_answer": "開始",
+        "explanation": "**Chapter 5 Vocabulary**\ncommencement = 開始"
     },
     {
         "id": 15,
         "category": "Vocabulary - Chapter 5",
-        "question": "What is the Thai meaning of the word: **cultivate**?",
-        "options": ["เพาะปลูก", "ก่อตั้ง", "ระบุ", "ติดตั้ง"],
-        "correct_answer": "เพาะปลูก",
-        "explanation": "**Chapter 5 Vocabulary**\ncultivate = เพาะปลูก / ฝึกฝน"
+        "question": "What is the Japanese meaning of the word: **cultivate**?",
+        "options": ["〜を培う", "〜を設立する", "〜を認定する", "〜を設置する"],
+        "correct_answer": "〜を培う",
+        "explanation": "**Chapter 5 Vocabulary**\ncultivate = 〜を培う"
     },
     {
         "id": 16,
         "category": "Vocabulary - Chapter 5",
-        "question": "What is the Thai meaning of the word: **furthermore**?",
-        "options": ["อย่างละเอียดถี่ถ้วน", "นอกจากนี้", "อิสระ", "ขาดประสบการณ์"],
-        "correct_answer": "นอกจากนี้",
-        "explanation": "**Chapter 5 Vocabulary**\nfurthermore = นอกจากนี้"
+        "question": "What is the Japanese meaning of the word: **furthermore**?",
+        "options": ["徹底的な", "さらに", "独自の", "不慣れな"],
+        "correct_answer": "さらに",
+        "explanation": "**Chapter 5 Vocabulary**\nfurthermore = さらに"
     },
     {
         "id": 17,
         "category": "Vocabulary - Chapter 5",
-        "question": "What is the Thai meaning of the word: **identify**?",
-        "options": ["ดำเนินตาม", "พูดเกินจริง", "ระบุ", "จัดส่ง"],
-        "correct_answer": "ระบุ",
-        "explanation": "**Chapter 5 Vocabulary**\nidentify = ระบุ / ยืนยัน"
+        "question": "What is the Japanese meaning of the word: **identify**?",
+        "options": ["〜を続ける", "〜を誇張する", "〜を認定する", "〜を出荷する"],
+        "correct_answer": "〜を認定する",
+        "explanation": "**Chapter 5 Vocabulary**\nidentify = 〜を認定する"
     },
     {
         "id": 18,
         "category": "Vocabulary - Chapter 5",
-        "question": "What is the Thai meaning of the word: **independent**?",
-        "options": ["หลัก", "อิสระ", "ขาดประสบการณ์", "อย่างละเอียดถี่ถ้วน"],
-        "correct_answer": "อิสระ",
-        "explanation": "**Chapter 5 Vocabulary**\nindependent = อิสระ / พึ่งพาตนเอง"
+        "question": "What is the Japanese meaning of the word: **independent**?",
+        "options": ["主要な", "独自の", "不慣れな", "徹底的な"],
+        "correct_answer": "独自の",
+        "explanation": "**Chapter 5 Vocabulary**\nindependent = 独自の"
     },
     {
         "id": 19,
         "category": "Vocabulary - Chapter 5",
-        "question": "What is the Thai meaning of the word: **inexperienced**?",
-        "options": ["อิสระ", "ทานได้", "ขาดประสบการณ์", "หลัก"],
-        "correct_answer": "ขาดประสบการณ์",
-        "explanation": "**Chapter 5 Vocabulary**\ninexperienced = ขาดประสบการณ์"
+        "question": "What is the Japanese meaning of the word: **inexperienced**?",
+        "options": ["独自の", "食べられる", "不慣れな", "主要な"],
+        "correct_answer": "不慣れな",
+        "explanation": "**Chapter 5 Vocabulary**\ninexperienced = 不慣れな"
     },
     {
         "id": 20,
         "category": "Vocabulary - Chapter 5",
-        "question": "What is the Thai meaning of the word: **ingredient**?",
-        "options": ["ส่วนผสม", "สิ่งทดแทน", "ต้นแบบ", "เนื้อหา"],
-        "correct_answer": "ส่วนผสม",
-        "explanation": "**Chapter 5 Vocabulary**\ningredient = ส่วนผสม / วัตถุดิบ"
+        "question": "What is the Japanese meaning of the word: **ingredient**?",
+        "options": ["原料; 成分", "代用品", "試作品", "中身"],
+        "correct_answer": "原料; 成分",
+        "explanation": "**Chapter 5 Vocabulary**\ningredient = 原料; 成分"
     },
     {
         "id": 21,
         "category": "Vocabulary - Chapter 5",
-        "question": "What is the Thai meaning of the word: **prevention**?",
-        "options": ["การป้องกัน", "การเริ่มต้น", "ความน่าเชื่อถือ", "ความเป็นไปได้"],
-        "correct_answer": "การป้องกัน",
-        "explanation": "**Chapter 5 Vocabulary**\nprevention = การป้องกัน"
+        "question": "What is the Japanese meaning of the word: **prevention**?",
+        "options": ["防止", "開始", "信用性", "可能性"],
+        "correct_answer": "防止",
+        "explanation": "**Chapter 5 Vocabulary**\nprevention = 防止"
     },
     {
         "id": 22,
         "category": "Vocabulary - Chapter 5",
-        "question": "What is the Thai meaning of the word: **pursue**?",
-        "options": ["ดำเนินตาม", "เพาะปลูก", "ก่อตั้ง", "ระบุ"],
-        "correct_answer": "ดำเนินตาม",
-        "explanation": "**Chapter 5 Vocabulary**\npursue = ดำเนินตาม / ไล่ตาม"
+        "question": "What is the Japanese meaning of the word: **pursue**?",
+        "options": ["〜を続ける", "〜を培う", "〜を設立する", "〜を認定する"],
+        "correct_answer": "〜を続ける",
+        "explanation": "**Chapter 5 Vocabulary**\npursue = 〜を続ける"
     },
     {
         "id": 23,
         "category": "Vocabulary - Chapter 5",
-        "question": "What is the Thai meaning of the word: **represent**?",
-        "options": ["มาจาก", "เป็นตัวแทนของ", "ครอบคลุม", "มีจำนวนทั้งหมด"],
-        "correct_answer": "เป็นตัวแทนของ",
-        "explanation": "**Chapter 5 Vocabulary**\nrepresent = เป็นตัวแทนของ / แสดงถึง"
+        "question": "What is the Japanese meaning of the word: **represent**?",
+        "options": ["〜に由来する", "〜のしるしである", "〜に及ぶ", "総計〜になる"],
+        "correct_answer": "〜のしるしである",
+        "explanation": "**Chapter 5 Vocabulary**\nrepresent = 〜のしるしである"
     },
     {
         "id": 24,
         "category": "Vocabulary - Chapter 5",
-        "question": "What is the Thai meaning of the word: **staple**?",
-        "options": ["อิสระ", "หลัก", "อย่างละเอียดถี่ถ้วน", "ขาดประสบการณ์"],
-        "correct_answer": "หลัก",
-        "explanation": "**Chapter 5 Vocabulary**\nstaple = หลัก / สำคัญ"
+        "question": "What is the Japanese meaning of the word: **staple**?",
+        "options": ["独自の", "主要な", "徹底的な", "不慣れな"],
+        "correct_answer": "主要な",
+        "explanation": "**Chapter 5 Vocabulary**\nstaple = 主要な"
     },
     {
         "id": 25,
         "category": "Vocabulary - Chapter 5",
-        "question": "What is the Thai meaning of the word: **substitute**?",
-        "options": ["สินค้า", "ส่วนผสม", "สิ่งทดแทน", "สิ่งก่อสร้าง"],
-        "correct_answer": "สิ่งทดแทน",
-        "explanation": "**Chapter 5 Vocabulary**\nsubstitute = สิ่งทดแทน"
+        "question": "What is the Japanese meaning of the word: **substitute**?",
+        "options": ["商品", "成分", "代用品", "建造物"],
+        "correct_answer": "代用品",
+        "explanation": "**Chapter 5 Vocabulary**\nsubstitute = 代用品"
     },
 
     # Chapter 6: KOKUYO (26-35)
     {
         "id": 26,
         "category": "Vocabulary - Chapter 6",
-        "question": "What is the Thai meaning of the word: **content**?",
-        "options": ["เนื้อหา", "สินค้า", "สิ่งทดแทน", "วัตถุดิบ"],
-        "correct_answer": "เนื้อหา",
-        "explanation": "**Chapter 6 Vocabulary**\ncontent = เนื้อหา / สิ่งที่บรรจุอยู่"
+        "question": "What is the Japanese meaning of the word: **content**?",
+        "options": ["中身", "商品", "代用品", "原料"],
+        "correct_answer": "中身",
+        "explanation": "**Chapter 6 Vocabulary**\ncontent = 中身"
     },
     {
         "id": 27,
         "category": "Vocabulary - Chapter 6",
-        "question": "What is the Thai meaning of the word: **derive from**?",
-        "options": ["มาจาก", "ประกอบด้วย", "เอาเปรียบ", "ครอบคลุม"],
-        "correct_answer": "มาจาก",
-        "explanation": "**Chapter 6 Vocabulary**\nderive from = มาจาก / มีที่มาจาก"
+        "question": "What is the Japanese meaning of the word: **derive from**?",
+        "options": ["〜に由来する", "〜から成る", "〜につけ込む", "〜に及ぶ"],
+        "correct_answer": "〜に由来する",
+        "explanation": "**Chapter 6 Vocabulary**\nderive from = 〜に由来する"
     },
     {
         "id": 28,
         "category": "Vocabulary - Chapter 6",
-        "question": "What is the Thai meaning of the word: **direction**?",
-        "options": ["การชี้นำ", "ความน่าเชื่อถือ", "การป้องกัน", "บาน"],
-        "correct_answer": "การชี้นำ",
-        "explanation": "**Chapter 6 Vocabulary**\ndirection = ทิศทาง / การชี้นำ"
+        "question": "What is the Japanese meaning of the word: **direction**?",
+        "options": ["指揮", "信用性", "防止", "開花"],
+        "correct_answer": "指揮",
+        "explanation": "**Chapter 6 Vocabulary**\ndirection = 指揮"
     },
     {
         "id": 29,
         "category": "Vocabulary - Chapter 6",
-        "question": "What is the Thai meaning of the word: **installation**?",
-        "options": ["การติดตั้ง", "การก่อสร้าง", "การเริ่มต้น", "การจัดส่งสินค้า"],
-        "correct_answer": "การติดตั้ง",
-        "explanation": "**Chapter 6 Vocabulary**\ninstallation = การติดตั้ง"
+        "question": "What is the Japanese meaning of the word: **installation**?",
+        "options": ["設置", "建設", "開始", "発送"],
+        "correct_answer": "設置",
+        "explanation": "**Chapter 6 Vocabulary**\ninstallation = 設置"
     },
     {
         "id": 30,
         "category": "Vocabulary - Chapter 6",
-        "question": "What is the Thai meaning of the word: **launch**?",
-        "options": ["เปิดตัว (สินค้าใหม่)", "ดำเนินตาม", "เพาะปลูก", "ติดตั้ง"],
-        "correct_answer": "เปิดตัว (สินค้าใหม่)",
-        "explanation": "**Chapter 6 Vocabulary**\nlaunch = เปิดตัว (สินค้าใหม่) / วางจำหน่าย"
+        "question": "What is the Japanese meaning of the word: **launch**?",
+        "options": ["(新製品を)売り出す", "〜を続ける", "〜を培う", "〜を設置する"],
+        "correct_answer": "(新製品を)売り出す",
+        "explanation": "**Chapter 6 Vocabulary**\nlaunch = (新製品を)売り出す"
     },
     {
         "id": 31,
         "category": "Vocabulary - Chapter 6",
-        "question": "What is the Thai meaning of the word: **number**?",
-        "options": ["มีจำนวนทั้งหมด", "พูดเกินจริง", "เป็นตัวแทนของ", "มีส่วนร่วมใน"],
-        "correct_answer": "มีจำนวนทั้งหมด",
-        "explanation": "**Chapter 6 Vocabulary**\nnumber = มีจำนวนทั้งหมด (amount to)"
+        "question": "What is the Japanese meaning of the word: **number**?",
+        "options": ["総計〜になる", "〜を誇張する", "〜のしるしである", "〜に携わる"],
+        "correct_answer": "総計〜になる",
+        "explanation": "**Chapter 6 Vocabulary**\nnumber = 総計〜になる"
     },
     {
         "id": 32,
         "category": "Vocabulary - Chapter 6",
-        "question": "What is the Thai meaning of the word: **ship**?",
-        "options": ["จัดส่ง", "ก่อตั้ง", "ระบุ", "รับมือกับ"],
-        "correct_answer": "จัดส่ง",
-        "explanation": "**Chapter 6 Vocabulary**\nship = จัดส่ง / ส่งออก"
+        "question": "What is the Japanese meaning of the word: **ship**?",
+        "options": ["〜を出荷する", "〜を設立する", "〜を認定する", "〜にうまく対処する"],
+        "correct_answer": "〜を出荷する",
+        "explanation": "**Chapter 6 Vocabulary**\nship = 〜を出荷する"
     },
     {
         "id": 33,
         "category": "Vocabulary - Chapter 6",
-        "question": "What is the Thai meaning of the word: **shortage**?",
-        "options": ["เงินทุน", "ความเป็นไปได้", "ความขาดแคลน", "การเพาะพันธุ์"],
-        "correct_answer": "ความขาดแคลน",
-        "explanation": "**Chapter 6 Vocabulary**\nshortage = ความขาดแคลน"
+        "question": "What is the Japanese meaning of the word: **shortage**?",
+        "options": ["資本金", "可能性", "不足", "品種改良"],
+        "correct_answer": "不足",
+        "explanation": "**Chapter 6 Vocabulary**\nshortage = 不足"
     },
     {
         "id": 34,
         "category": "Vocabulary - Chapter 6",
-        "question": "What is the Thai meaning of the word: **take advantage of**?",
-        "options": ["ประกอบด้วย", "อุทิศตนให้กับ", "เชี่ยวชาญเป็นพิเศษใน", "เอาเปรียบ"],
-        "correct_answer": "เอาเปรียบ",
-        "explanation": "**Chapter 6 Vocabulary**\ntake advantage of = ใช้ประโยชน์จาก / เอาเปรียบ"
+        "question": "What is the Japanese meaning of the word: **take advantage of**?",
+        "options": ["〜から成る", "〜に力を注ぐ", "〜を専門にする", "〜につけ込む"],
+        "correct_answer": "〜につけ込む",
+        "explanation": "**Chapter 6 Vocabulary**\ntake advantage of = 〜につけ込む"
     },
     {
         "id": 35,
         "category": "Vocabulary - Chapter 6",
-        "question": "What is the Thai meaning of the word: **thorough**?",
-        "options": ["อย่างละเอียดถี่ถ้วน", "หลัก", "อิสระ", "ขาดประสบการณ์"],
-        "correct_answer": "อย่างละเอียดถี่ถ้วน",
-        "explanation": "**Chapter 6 Vocabulary**\nthorough = อย่างละเอียดถี่ถ้วน"
+        "question": "What is the Japanese meaning of the word: **thorough**?",
+        "options": ["徹底的な", "主要な", "独自の", "不慣れな"],
+        "correct_answer": "徹底的な",
+        "explanation": "**Chapter 6 Vocabulary**\nthorough = 徹底的な"
     },
 
     # Chapter 7: KGK (36-45)
     {
         "id": 36,
         "category": "Vocabulary - Chapter 7",
-        "question": "What is the Thai meaning of the word: **cope with**?",
-        "options": ["รับมือกับ", "มาจาก", "มีส่วนร่วมใน", "ประกอบด้วย"],
-        "correct_answer": "รับมือกับ",
-        "explanation": "**Chapter 7 Vocabulary**\ncope with = รับมือกับ / จัดการกับ"
+        "question": "What is the Japanese meaning of the word: **cope with**?",
+        "options": ["〜にうまく対処する", "〜に由来する", "〜に携わる", "〜から成る"],
+        "correct_answer": "〜にうまく対処する",
+        "explanation": "**Chapter 7 Vocabulary**\ncope with = 〜にうまく対処する"
     },
     {
         "id": 37,
         "category": "Vocabulary - Chapter 7",
-        "question": "What is the Thai meaning of the word: **credibility**?",
-        "options": ["ความเป็นไปได้", "ความน่าเชื่อถือ", "เงินทุน", "เนื้อหา"],
-        "correct_answer": "ความน่าเชื่อถือ",
-        "explanation": "**Chapter 7 Vocabulary**\ncredibility = ความน่าเชื่อถือ"
+        "question": "What is the Japanese meaning of the word: **credibility**?",
+        "options": ["可能性", "信用性", "資本金", "中身"],
+        "correct_answer": "信用性",
+        "explanation": "**Chapter 7 Vocabulary**\ncredibility = 信用性"
     },
     {
         "id": 38,
         "category": "Vocabulary - Chapter 7",
-        "question": "What is the Thai meaning of the word: **edible**?",
-        "options": ["อิสระ", "ทานได้", "ขาดประสบการณ์", "อย่างละเอียดถี่ถ้วน"],
-        "correct_answer": "ทานได้",
-        "explanation": "**Chapter 7 Vocabulary**\nedible = ทานได้ / รับประทานได้ (ไม่มีพิษ)"
+        "question": "What is the Japanese meaning of the word: **edible**?",
+        "options": ["独自の", "食べられる", "不慣れな", "徹底的な"],
+        "correct_answer": "食べられる",
+        "explanation": "**Chapter 7 Vocabulary**\nedible = (毒性がなくて) 食べられる"
     },
     {
         "id": 39,
         "category": "Vocabulary - Chapter 7",
-        "question": "What is the Thai meaning of the word: **install**?",
-        "options": ["ติดตั้ง", "พูดเกินจริง", "เพาะปลูก", "จัดส่ง"],
-        "correct_answer": "ติดตั้ง",
-        "explanation": "**Chapter 7 Vocabulary**\ninstall = ติดตั้ง"
+        "question": "What is the Japanese meaning of the word: **install**?",
+        "options": ["〜を設置する", "〜を誇張する", "〜を培う", "〜を出荷する"],
+        "correct_answer": "〜を設置する",
+        "explanation": "**Chapter 7 Vocabulary**\ninstall = 〜を設置する"
     },
     {
         "id": 40,
         "category": "Vocabulary - Chapter 7",
-        "question": "What is the Thai meaning of the word: **manufacturer**?",
-        "options": ["ผู้ผลิต", "สาขา", "ห้องปฏิบัติการ", "สิ่งทดแทน"],
-        "correct_answer": "ผู้ผลิต",
-        "explanation": "**Chapter 7 Vocabulary**\nmanufacturer = ผู้ผลิต / โรงงาน"
+        "question": "What is the Japanese meaning of the word: **manufacturer**?",
+        "options": ["メーカー", "支店", "研究所", "代用品"],
+        "correct_answer": "メーカー",
+        "explanation": "**Chapter 7 Vocabulary**\nmanufacturer = メーカー"
     },
     {
         "id": 41,
         "category": "Vocabulary - Chapter 7",
-        "question": "What is the Thai meaning of the word: **merchandise**?",
-        "options": ["สินค้า", "วัตถุดิบ", "ส่วนผสม", "สิ่งก่อสร้าง"],
-        "correct_answer": "สินค้า",
-        "explanation": "**Chapter 7 Vocabulary**\nmerchandise = สินค้า"
+        "question": "What is the Japanese meaning of the word: **merchandise**?",
+        "options": ["商品", "原料", "成分", "建造物"],
+        "correct_answer": "商品",
+        "explanation": "**Chapter 7 Vocabulary**\nmerchandise = 商品"
     },
     {
         "id": 42,
         "category": "Vocabulary - Chapter 7",
-        "question": "What is the Thai meaning of the word: **potential**?",
-        "options": ["การป้องกัน", "ความเป็นไปได้", "ความน่าเชื่อถือ", "ความขาดแคลน"],
-        "correct_answer": "ความเป็นไปได้",
-        "explanation": "**Chapter 7 Vocabulary**\npotential = ศักยภาพ / ความเป็นไปได้"
+        "question": "What is the Japanese meaning of the word: **potential**?",
+        "options": ["防止", "可能性", "信用性", "不足"],
+        "correct_answer": "可能性",
+        "explanation": "**Chapter 7 Vocabulary**\npotential = 可能性"
     },
     {
         "id": 43,
         "category": "Vocabulary - Chapter 7",
-        "question": "What is the Thai meaning of the word: **prototype**?",
-        "options": ["ต้นแบบ", "สิ่งทดแทน", "เงินทุน", "เนื้อหา"],
-        "correct_answer": "ต้นแบบ",
-        "explanation": "**Chapter 7 Vocabulary**\nprototype = ต้นแบบ / รุ่นทดสอบ"
+        "question": "What is the Japanese meaning of the word: **prototype**?",
+        "options": ["試作品", "代用品", "資本金", "中身"],
+        "correct_answer": "試作品",
+        "explanation": "**Chapter 7 Vocabulary**\nprototype = 試作品"
     },
     {
         "id": 44,
         "category": "Vocabulary - Chapter 7",
-        "question": "What is the Thai meaning of the word: **shipment**?",
-        "options": ["การจัดส่งสินค้า", "การเริ่มต้น", "การติดตั้ง", "การก่อสร้าง"],
-        "correct_answer": "การจัดส่งสินค้า",
-        "explanation": "**Chapter 7 Vocabulary**\nshipment = การจัดส่งสินค้า"
+        "question": "What is the Japanese meaning of the word: **shipment**?",
+        "options": ["発送", "開始", "設置", "建設"],
+        "correct_answer": "発送",
+        "explanation": "**Chapter 7 Vocabulary**\nshipment = 発送"
     },
     {
         "id": 45,
         "category": "Vocabulary - Chapter 7",
-        "question": "What is the Thai meaning of the word: **specialize in**?",
-        "options": ["เชี่ยวชาญเป็นพิเศษใน", "เอาเปรียบ", "อุทิศตนให้กับ", "มาจาก"],
-        "correct_answer": "เชี่ยวชาญเป็นพิเศษใน",
-        "explanation": "**Chapter 7 Vocabulary**\nspecialize in = เชี่ยวชาญเป็นพิเศษใน"
+        "question": "What is the Japanese meaning of the word: **specialize in**?",
+        "options": ["〜を専門にする", "〜につけ込む", "〜に力を注ぐ", "〜に由来する"],
+        "correct_answer": "〜を専門にする",
+        "explanation": "**Chapter 7 Vocabulary**\nspecialize in = 〜を専門にする"
     },
-
     # ---------------------------------------------------------
     # PART 2: GRAMMAR MOCK TEST (Chapters 4 - 7) - 60 Questions
     # ---------------------------------------------------------
