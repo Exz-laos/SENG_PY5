@@ -1,2 +1,6 @@
-streamlit>=1.29.0
-gTTS
+streamlit==1.41.0
+starlette==0.41.3
+gTTS==2.5.4
+numpy==2.2.1
+pandas==2.2.3
+altair==5.5.0
