@@ -263,7 +263,7 @@ with st.sidebar:
 
 
 # --- Main Flashcard Area ---
-st.title("🧮 制御riron画像フラッシュカード")
+st.title("🧮 制御画像フラッシュカード")
 
 if not st.session_state.card_indices_active or st.session_state.total_cards == 0:
     st.warning("表示するカードがありません。範囲を設定するか、すべてのカードを表示してください。")
