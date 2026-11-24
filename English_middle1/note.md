@@ -49,6 +49,9 @@
 
 
 
+I will use you based on this file 英語期末①.pdf as the file for charpter4 to 7 . and based on your experience I think you will know better than me about the exam format which one is suitable and which one have to improve. so please create the summary vocabulary each charter 3 to 7 for example your previous result 口英文中の空備に着したものを選択し、空にその濃状肢の記号を有き入れなさい。（各2歳）※正解はテキストに
+準じる
+
 This is an excellent way to prepare for your midterm. By breaking down the textbook sentences into TOEIC Part 5 format, you can simultaneously memorize the content of Chapter 1 and train the exact grammatical patterns required for competitive university transfer exams.
 
 Here are 15 practice questions created directly from the **Suntory (Chapter 1)** text, targeting the specific grammar rules we analyzed earlier (Relative Pronouns, Participles, Parts of Speech, Passive Voice, and Conjunctions).
